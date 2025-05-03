@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    display: flex;
+    align-items: top;
+    top: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(163, 93, 32, 0.587);
+    backdrop-filter: blur;
+    border-radius: 6px;
+    top: 0;
+    margin: 0;
+}
+
+nav a{
+    background-color: chocolate;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px ;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav :active{
+    color: beige;
+    background-color: black;
+}
+
+
+
+button{
+    padding: 4px;
+    margin: 5px 4px;
+    width: 20%;
+    color: white;
+    border: 2px solid grey;
+    transition: 1s ease-in-out;
+    border-radius: 5px;
+    background-image: linear-gradient( to bottom right, rgb(224,209,0),rgb(93, 0, 200), rgb(225, 0 , 224), rgb( 0 ,200 , 0), rgb(5, 5, 231));
+}
+
+button:hover{
+    transform: translateY(4px);
+    box-shadow: 3px 4px 5px black;
+}
+
+button:active{
+    transform: scale(-2px);
+    color: black;
+}

@@ -1,0 +1,21 @@
+body{
+    padding: o;
+    margin: 0;
+    top: 0;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-;
+}
+
+ul{
+    
+    display: flex;
+}
+
+ul li{
+    padding: 4px;
+    list-style: none;
+}
